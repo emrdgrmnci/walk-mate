@@ -192,9 +192,17 @@ body {
   display: block;
 }
 
+.badge-qr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
 .badge { 
   display: inline-block;
-  margin-top: 24px;
 }
 
 .badge img { 
@@ -204,6 +212,30 @@ body {
 
 .badge img:hover {
   transform: scale(1.05);
+}
+
+.qr-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-code a {
+  display: inline-block;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.qr-code a:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.qr-code img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
@@ -217,6 +249,15 @@ body {
   
   .hero-center .subtitle {
     font-size: 16px;
+  }
+  
+  .badge-qr-container {
+    gap: 16px;
+  }
+  
+  .qr-code img {
+    width: 120px;
+    height: 120px;
   }
 }
 
