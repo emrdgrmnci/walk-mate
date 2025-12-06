@@ -171,6 +171,27 @@ body {
   max-width: 700px;
 }
 
+.producthunt-badge {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.producthunt-badge a {
+  display: inline-block;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.producthunt-badge a:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.producthunt-badge img {
+  display: block;
+}
+
 .badge { 
   display: inline-block;
   margin-top: 24px;
