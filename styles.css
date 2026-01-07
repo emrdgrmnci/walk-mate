@@ -859,23 +859,3 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  .promo-badge {
-    top: 10px;
-    right: 10px;
-    padding: 10px 16px;
-    font-size: 12px;
-  }
-  
-  .app-card-horizontal .promo-badge {
-    top: 12px;
-    right: 12px;
-    padding: 6px 12px;
-    font-size: 11px;
-  }
-  
-  .app-card-horizontal .promo-badge::before {
-    font-size: 14px;
-  }
-}
-
