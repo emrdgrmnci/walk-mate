@@ -723,6 +723,7 @@ body {
 
 .column-description {
   color: var(--muted);
+  white-space: pre-line;
 }
 
 .column-date {
